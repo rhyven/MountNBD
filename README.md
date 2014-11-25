@@ -9,7 +9,8 @@ However, restoring from backup (e.g. reading files directly from these virtual d
 
 So, I finally wrote a piece of Python that does the job of loading all the drivers, and mounting the virtual drive for you.  I run it from the home folder on each server that hosts virtual machines.
 
-== USAGE ==
+Usage
+=====
 
 sudo ~/MountNBD.py [IMAGE FILE TO MOUNT]
 
